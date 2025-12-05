@@ -13,8 +13,8 @@ public class MainPageTest {
     private WebDriver driver;
     private MainPage mainPage;
 
-    @BeforeEach
-    public void setUp() {
+@BeforeEach
+public void setUp() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -23,12 +23,12 @@ public class MainPageTest {
         mainPage = new MainPage(driver);
 
         try{
-            WebElement acceptButton = driver.findElement(By.xpath("//button[contains(text(),'Accept All')]"));
-            acceptButton.click();
+        WebElement acceptButton = driver.findElement(By.xpath("//button[contains(text(),'Accept All')]"));
+        acceptButton.click();
 
-            System.out.println("Cookie consent accepted");
+        System.out.println("Cookie consent accepted");
         }catch (Exception e){
-            System.out.println("No cookie consent prompt found");
+        System.out.println("No cookie consent prompt found");
         }
     }
 
@@ -47,9 +47,9 @@ public class MainPageTest {
         submitButton.click();
 
         WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test-id='search-input']"));
-        assertEquals("Selenium", searchPageField.getAttribute("value"));
+            assertEquals("Selenium", searchPageField.getAttribute("value"));
 
-    }
+}
 
     @Test
     public void toolsMenu() {
@@ -60,7 +60,7 @@ public class MainPageTest {
         Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(d->{
             return menuPopup.isDisplayed();
-        });
+                });
 
         assertTrue(menuPopup.isDisplayed());
         assertTrue(driver.getPageSource().contains("JETBRAINS IDEs"));

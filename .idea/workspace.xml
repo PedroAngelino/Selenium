@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd1d36cc-a74f-4ec3-aff8-67f3bafe099e" name="Changes" comment="Read ME">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPageTest.java" afterDir="false" />
+    <list default="true" id="dd1d36cc-a74f-4ec3-aff8-67f3bafe099e" name="Changes" comment="Pom fix">
+      <change afterPath="$PROJECT_DIR$/.idea/.copilot-plugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +24,13 @@
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
-    "assignee": "LETI-136754"
+    "assignee": "PedroAngelino"
   }
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/PedroAngelino/Selenium.git",
-    "accountId": "0dd07f52-3d3d-4923-8a6c-df14e3677a96"
+    "accountId": "9ab8cdd0-3b0a-4ed8-8ad9-bbe6a07b8624"
   }
 }]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -47,11 +46,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MainPageTest.executor": "Run",
+    "JUnit.MainPageTest.navigationToAllTools.executor": "Run",
+    "JUnit.MainPageTest.search.executor": "Run",
+    "JUnit.MainPageTest.toolsMenu.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "marina",
+    "git-widget-placeholder": "pedrojetbrains",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -59,10 +63,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MainPageTest">
     <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
@@ -78,9 +86,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainPageTest.navigationToAllTools" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iscteiul.ista.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iscteiul.ista.selenium" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.selenium.MainPageTest" />
+      <option name="METHOD_NAME" value="navigationToAllTools" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iscteiul.ista.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iscteiul.ista.selenium" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.selenium.MainPageTest" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.toolsMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iscteiul.ista.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iscteiul.ista.selenium" />
+      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.selenium.MainPageTest" />
+      <option name="METHOD_NAME" value="toolsMenu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainPageTest" />
+        <item itemvalue="JUnit.MainPageTest.search" />
+        <item itemvalue="JUnit.MainPageTest.navigationToAllTools" />
+        <item itemvalue="JUnit.MainPageTest.toolsMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -99,8 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764952742549</updated>
-      <workItem from="1764952743756" duration="580000" />
-      <workItem from="1764954479332" duration="1308000" />
+      <workItem from="1764952743756" duration="4486000" />
     </task>
     <task id="LOCAL-00001" summary="Read ME">
       <option name="closed" value="true" />
@@ -118,7 +176,31 @@
       <option name="project" value="LOCAL" />
       <updated>1764952958281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Read ME">
+      <option name="closed" value="true" />
+      <created>1764953404249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764953404249</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Read ME">
+      <option name="closed" value="true" />
+      <created>1764955898502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764955898502</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pom fix">
+      <option name="closed" value="true" />
+      <created>1764957482852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764957482852</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Read ME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Read ME" />
+    <MESSAGE value="Pom fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pom fix" />
   </component>
 </project>
