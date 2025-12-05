@@ -36,9 +36,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="36QxkjzrAyfyC9yZG6Dm1OftJ3g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />

@@ -32,7 +32,7 @@ public void setUp() {
         }
     }
 
-@AfterEach    public void tearDown() {
+    @AfterEach    public void tearDown() {
         driver.quit();
     }
 
@@ -73,5 +73,5 @@ public void setUp() {
 
         WebElement productsList = driver.findElement(By.id("products-page"));
         assertTrue(productsList.isDisplayed());
-assertEquals("All Developer Tools and Products by JetBrains", driver.getTitle());    }
+        assertEquals("All Developer Tools and Products by JetBrains", driver.getTitle());    }
 }
