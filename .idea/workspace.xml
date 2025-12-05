@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd1d36cc-a74f-4ec3-aff8-67f3bafe099e" name="Changes" comment="Read ME">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iscteiul/ista/selenium/MainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -43,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.MainPageTest.executor": "Run",
+    "JUnit.MainPageTest.navigationToAllTools.executor": "Run",
     "JUnit.MainPageTest.search.executor": "Run",
     "JUnit.MainPageTest.toolsMenu.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -50,7 +54,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "pedrojetbrains",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -61,6 +65,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764952742549</updated>
-      <workItem from="1764952743756" duration="2873000" />
+      <workItem from="1764952743756" duration="4222000" />
     </task>
     <task id="LOCAL-00001" summary="Read ME">
       <option name="closed" value="true" />
@@ -178,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764953404249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Read ME">
+      <option name="closed" value="true" />
+      <created>1764955898502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764955898502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
