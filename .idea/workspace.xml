@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd1d36cc-a74f-4ec3-aff8-67f3bafe099e" name="Changes" comment="Read ME">
-      <change afterPath="$PROJECT_DIR$/src/test/java/sampler/interaction/Pages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sampler/interaction/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.copilot-plugin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +35,12 @@
     &quot;assignee&quot;: &quot;PedroAngelino&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PedroAngelino/Selenium.git",
-    "accountId": "0dd07f52-3d3d-4923-8a6c-df14e3677a96"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PedroAngelino/Selenium.git&quot;,
+    &quot;accountId&quot;: &quot;0dd07f52-3d3d-4923-8a6c-df14e3677a96&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -51,6 +48,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="36QxkjzrAyfyC9yZG6Dm1OftJ3g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,12 +62,14 @@
     "JUnit.MainPageTest.search.executor": "Run",
     "JUnit.MainPageTest.toolsMenu.executor": "Run",
     "JUnit.Tests.executor": "Run",
+    "JUnit.datapresentationtests (1).executor": "Run",
+    "JUnit.datapresentationtests.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ts5samplerinteractionmarina",
+    "git-widget-placeholder": "sampler.datapresentation",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -82,7 +84,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="JUnit.datapresentationtests">
     <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
@@ -93,23 +95,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="iscteiul.ista.selenium" />
       <option name="MAIN_CLASS_NAME" value="iscteiul.ista.selenium.MainPageTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageTest.navigationToAllTools" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iscteiul.ista.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.selenium" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.selenium.MainPageTest" />
-      <option name="METHOD_NAME" value="navigationToAllTools" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,22 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest.toolsMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iscteiul.ista.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iscteiul.ista.selenium" />
-      <option name="MAIN_CLASS_NAME" value="iscteiul.ista.selenium.MainPageTest" />
-      <option name="METHOD_NAME" value="toolsMenu" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
@@ -161,13 +132,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="datapresentationtests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sampler.datapresentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sampler.datapresentation" />
+      <option name="MAIN_CLASS_NAME" value="sampler.datapresentation.datapresentationtests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="datapresentationtests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sampler.datapresentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sampler.datapresentation" />
+      <option name="MAIN_CLASS_NAME" value="sampler.datapresentation.datapresentationtests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-javaagent:...aspectjweaver.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.datapresentationtests (1)" />
+      <item itemvalue="JUnit.datapresentationtests" />
+      <item itemvalue="JUnit.MainPageTest" />
+      <item itemvalue="JUnit.MainPageTest.search" />
+      <item itemvalue="JUnit.Tests" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.datapresentationtests" />
+        <item itemvalue="JUnit.datapresentationtests (1)" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.MainPageTest" />
         <item itemvalue="JUnit.MainPageTest.search" />
-        <item itemvalue="JUnit.MainPageTest.navigationToAllTools" />
-        <item itemvalue="JUnit.MainPageTest.toolsMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +198,7 @@
       <updated>1764952742549</updated>
       <workItem from="1764952743756" duration="4486000" />
       <workItem from="1764970330609" duration="2486000" />
+      <workItem from="1764974571670" duration="3407000" />
     </task>
     <task id="LOCAL-00001" summary="Read ME">
       <option name="closed" value="true" />
@@ -262,5 +273,10 @@
     <MESSAGE value="Read ME" />
     <MESSAGE value="Pom fix" />
     <option name="LAST_COMMIT_MESSAGE" value="Pom fix" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Selenium$datapresentationtests__1_.ic" NAME="datapresentationtests (1) Coverage Results" MODIFIED="1764977983448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>sampler.datapresentation.*</FILTER>
+    </SUITE>
   </component>
 </project>
